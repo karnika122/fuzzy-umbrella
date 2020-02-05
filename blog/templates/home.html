@@ -19,8 +19,8 @@
               <br>
               <h6 class="card-subtitle mb-2 text-muted">By {{p.author}} at {{p.date_posted |date:'F d, Y'}} <br/>
               </h6>
-              <div class = "post_body">
-                {{ post.body|safe|truncatewords:"50"|linebreaks }}
+              <div class = "blog-home">
+                {{ blog.home|safe|truncatewords:"50"|linebreaks }}
                 <a href="{{p.content}}">read more</a>
             </div>
               <!-- <p class="card-text" style='white-space:pre'>{{p.content}}</p> -->
